@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Pharmacist-scientist, PhD student @ PittPharmacy
+subtitle: Pharmacist-scientist, PhD student @ PittPharmacy
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>222 Salk Pavilion</p>
     <p>3501 Terrace Street</p>
