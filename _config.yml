@@ -77,8 +77,7 @@ orcid_id: # your ORCID ID
 research_gate_profile: # your profile on ResearchGate
 work_url: https://www.pharmacy.pitt.edu/directory/profile.php?profile=2297&type=Graduate%20Student # work page URL
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
