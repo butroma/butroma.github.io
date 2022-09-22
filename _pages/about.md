@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: **Pharmacist-scientist, PhD student @ PittPharmacy**
+subtitle: Pharmacist-scientist, PhD student @ PittPharmacy
 
 profile:
   align: right
