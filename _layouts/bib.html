@@ -179,6 +179,9 @@
           {%- if entry.pubmed %}
             <a href="{{ entry.pubmed }}" class="btn btn-sm z-depth-0" role="button">PubMed</a>
           {%- endif %}
+          {%- if entry.ap %}
+            <a href="{{ entry.ap }}" class="btn btn-sm z-depth-0" role="button">Access Pharmacy</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
