@@ -12,9 +12,19 @@ catprint: ['Peer-Reviewed Articles', 'Book Chapters']
 <!-- _pages/publications.md -->
 <div class="publications">
 
+{% for cat_ in page.categories  %}
+	{% assign ind = forloop.index %}
+
+	{%- capture cat -%}
+	{{ page.catprint[ind] }}
+	{%- endcapture -%}
+	
+	<h4 class="font-weight-bolder">{{cat}}</h4>
+
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
 {% endfor %}
 
 </div>
