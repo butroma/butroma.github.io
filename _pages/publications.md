@@ -29,7 +29,7 @@ catprint: ['', 'Peer-Reviewed Articles', 'Book Chapters']
 		{% if citecount != "0"  %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
-{% endfor %}
+{% endif %}
 {% endfor %}
 {% endfor %}
 
