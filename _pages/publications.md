@@ -22,8 +22,14 @@ catprint: ['', 'Peer-Reviewed Articles', 'Book Chapters']
 	<h4 class="font-weight-bolder">{{cat}}</h4>
 
 {%- for y in page.years %}
+{%- capture citecount -%}
+		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
+		{%- endcapture -%}
+
+		{% if citecount != "0"  %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
+{% endfor %}
 {% endfor %}
 {% endfor %}
 
