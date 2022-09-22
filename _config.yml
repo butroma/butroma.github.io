@@ -213,8 +213,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Butrovich, Casal, Alexandra Casal]
-  first_name: [Morgan, MA, M]
+  last_name: [Butrovich, Casal]
+  first_name: [Morgan, M. A. ]
 
   style: apa
   locale: en
