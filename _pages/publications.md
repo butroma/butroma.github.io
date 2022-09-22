@@ -7,7 +7,7 @@ years: [2022, 2021, 2019, 2018, 2015]
 nav: true
 nav_order: 1
 categories: ['paper', 'book']
-catprint: ['Peer-Reviewed Articles', 'Book Chapters']
+catprint: [, 'Peer-Reviewed Articles', 'Book Chapters']
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
@@ -23,7 +23,7 @@ catprint: ['Peer-Reviewed Articles', 'Book Chapters']
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}} && kind={{cat_}}]* %}
+  {% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 {% endfor %}
 {% endfor %}
 
