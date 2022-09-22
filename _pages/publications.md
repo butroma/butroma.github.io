@@ -7,7 +7,7 @@ years: [2022, 2021, 2019, 2018, 2015]
 nav: true
 nav_order: 1
 categories: ['paper', 'book']
-catprint: [, 'Peer-Reviewed Articles', 'Book Chapters']
+catprint: ['', 'Peer-Reviewed Articles', 'Book Chapters']
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
